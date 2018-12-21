@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  python-learn:
+    image: python-learn
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3001:3001
